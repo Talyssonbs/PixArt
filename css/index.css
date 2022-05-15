@@ -2,14 +2,19 @@
 @import url(h-f-scr.css);
 
 .sec-1{
-    background-color: var(--pale-white);
+    /* background-color: var(--white); */
 }
 
 .h1-text-style{
     color: var(--wine);
+    font-family: 'rainyhearts';
 }
 
 .img-carousel{
     height: 500px;
     object-fit: cover;
+}
+
+.img-inverter{
+    transform: scaleX(-1)
 }
