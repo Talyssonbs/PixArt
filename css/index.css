@@ -1,3 +1,15 @@
 @import url(colors.css);
 @import url(h-f-scr.css);
 
+.sec-1{
+    background-color: var(--pale-white);
+}
+
+.h1-text-style{
+    color: var(--wine);
+}
+
+.img-carousel{
+    height: 500px;
+    object-fit: cover;
+}
