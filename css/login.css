@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -16,8 +16,12 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-}
+} */
 
+body{
+    background-size: cover;
+    background-image: url("../imgs/imgs/background.png");
+}
 .logo{
     max-width: 50px;
     max-height: 30px;
@@ -36,12 +40,21 @@ header{
 .divnav{
     padding-right: 2rem;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .form{
+    background-color:white;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
-
+     border-color: blueviolet;
+    border: solid;
+    border-radius: 2rem;
+    width: 27rem;
+    height: 20rem;
+    
 }
 .form-floating{
     width: 20rem;
