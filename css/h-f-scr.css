@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 
 header {
     width: 100%;
-    background-color: var(--blue);
+    background-color: transparent;
     transition: background ease-out 0.2;
 }
 
