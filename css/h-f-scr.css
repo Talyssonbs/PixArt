@@ -1,24 +1,21 @@
 @import url(colors.css);
 
-body{
+body {
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-header{
+header {
     width: 100%;
     transition: background ease-out 0.2;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     width: auto;
 }
 
-.nav-link{
-    padding:0;
+.nav-link {
+    padding: 0;
 }
 
 .navbarstyle ul li::after {
@@ -29,13 +26,14 @@ header{
     display: block;
     transition: 0.3s;
 }
-.navbarstyle ul li:hover::after{
+
+.navbarstyle ul li:hover::after {
     width: 100%;
 }
 
 
-@media(max-width:991.8px){
-    .navbarstyle ul li:hover::after{
+@media(max-width:991.8px) {
+    .navbarstyle ul li:hover::after {
         width: 10%;
-    }    
+    }
 }
